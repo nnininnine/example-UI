@@ -6,9 +6,13 @@
 //
 
 import Foundation
+import RxSwift
 
 class MainViewModel {
     // MARK: Properties
+
+    let modules: Observable<[String]> = .of(["eiei", "eiei2"])
+    let disposeBag: DisposeBag = .init()
 
     // MARK: Init
 
