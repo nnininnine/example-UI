@@ -11,6 +11,7 @@ import UIKit
 class DiaryFolderViewController: UIViewController {
     // MARK: Outlets
 
+    @IBOutlet private var tableView: UITableView!
     @IBOutlet private var addButton: UIButton!
 
     override func viewDidLoad() {
