@@ -17,6 +17,7 @@
 		1E4D8EB7286C0EA9002135BE /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EB6286C0EA9002135BE /* Module.swift */; };
 		1E4D8EBB286C27C9002135BE /* 110304-popeye.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8EBA286C27C9002135BE /* 110304-popeye.json */; };
 		1E4D8EBF286C2950002135BE /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EBE286C2950002135BE /* LottieViewController.swift */; };
+		1E4D8EC2286C2E83002135BE /* LottieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */; };
 		7FF226E715910A67EFFCDA5D /* Pods_example_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		1E4D8EB6286C0EA9002135BE /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
 		1E4D8EBA286C27C9002135BE /* 110304-popeye.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "110304-popeye.json"; sourceTree = "<group>"; };
 		1E4D8EBE286C2950002135BE /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewModel.swift; sourceTree = "<group>"; };
 		4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93753630003E0D27BDF6F0AC /* Pods-example-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.debug.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.debug.xcconfig"; sourceTree = "<group>"; };
 		D8EAC9BC72AA1C06F2E2F43D /* Pods-example-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.release.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		1E4D8EBC286C28F1002135BE /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
+				1E4D8EC0286C2E75002135BE /* ViewModel */,
 				1E4D8EBD286C28FA002135BE /* View */,
 			);
 			path = Lottie;
@@ -172,6 +175,14 @@
 				1E4D8EBE286C2950002135BE /* LottieViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1E4D8EC0286C2E75002135BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		5FC9D98918F4FEAADAAFC66E /* Frameworks */ = {
@@ -311,6 +322,7 @@
 				1E4D8EBF286C2950002135BE /* LottieViewController.swift in Sources */,
 				1E4D8E98286BF547002135BE /* AppDelegate.swift in Sources */,
 				1E4D8E9A286BF547002135BE /* SceneDelegate.swift in Sources */,
+				1E4D8EC2286C2E83002135BE /* LottieViewModel.swift in Sources */,
 				1E4D8EB7286C0EA9002135BE /* Module.swift in Sources */,
 				1E4D8EB4286C0705002135BE /* MainViewModel.swift in Sources */,
 			);

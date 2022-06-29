@@ -28,6 +28,7 @@ class MainViewController: UITableViewController {
     func setup() {
         // binding
         bindingTableView()
+        onTapCell()
     }
 
     func bindingTableView() {
@@ -36,12 +37,22 @@ class MainViewController: UITableViewController {
 
         viewModel.modules.bind(to: tableView.rx.items) { (_: UITableView, _: Int, module: Module) in
             let cell = TableViewCell(style: .default, reuseIdentifier: "cell")
+            cell.module = module
             cell.textLabel?.text = module.name
             return cell
         }.disposed(by: viewModel.disposeBag)
     }
+
+    func onTapCell() {
+        tableView.rx.modelSelected(Module.self).subscribe(onNext: { [weak self] (module: Module) in
+            guard let self = self else { return }
+            self.viewModel.routeToModule(self, module: module)
+        }).disposed(by: viewModel.disposeBag)
+    }
 }
 
 private class TableViewCell: UITableViewCell {
+    var module: Module?
+
     override func setSelected(_ selected: Bool, animated: Bool) {}
 }

@@ -25,4 +25,11 @@ class MainViewModel {
     init() {}
 
     // MARK: Methods
+
+    func routeToModule(_ vc: UIViewController, module: Module) {
+        let storyboard = UIStoryboard(name: module.storyboardIdentifier, bundle: nil)
+        let desVC = storyboard.instantiateViewController(identifier: module.identifier)
+
+        vc.navigationController?.pushViewController(desVC, animated: true)
+    }
 }
