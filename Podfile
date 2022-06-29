@@ -6,6 +6,7 @@ target 'example-UI' do
   use_frameworks!
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'lottie-ios'
   # Pods for example-UI
 
 end
