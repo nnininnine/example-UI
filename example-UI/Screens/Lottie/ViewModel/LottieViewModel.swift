@@ -6,5 +6,17 @@
 //
 
 import Foundation
+import RxSwift
 
-class LottieViewModel {}
+class LottieViewModel {
+    // MARK: Properties
+
+    var isPlayingObservable: PublishSubject<Bool> = .init()
+    let disposeBag: DisposeBag = .init()
+
+    // MARK: Init
+
+    init() {}
+
+    // MARK: Methods
+}

@@ -57,6 +57,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="animationView" destination="bRp-MI-5Ul" id="02Y-6E-FHu"/>
+                        <outlet property="toggleButton" destination="UKM-ZI-cKy" id="af7-Mj-ijB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axe-fa-eef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

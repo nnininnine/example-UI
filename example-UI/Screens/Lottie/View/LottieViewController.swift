@@ -7,12 +7,19 @@
 
 import Foundation
 import Lottie
+import RxCocoa
+import RxSwift
 import UIKit
 
 class LottieViewController: UIViewController {
     // MARK: Outlets
 
     @IBOutlet private var animationView: AnimationView!
+    @IBOutlet private var toggleButton: UIButton!
+
+    // MARK: Properties
+
+    lazy var viewModel: LottieViewModel = .init()
 
     // MARK: Init
 
@@ -25,19 +32,40 @@ class LottieViewController: UIViewController {
     // MARK: Methods
 
     func setup() {
-        // 1. Set animation content mode
+        setupAnimation()
 
+        setupRx()
+    }
+
+    func setupAnimation() {
+        // 1. Set animation content mode
         animationView.contentMode = .scaleAspectFit
 
         // 2. Set animation loop mode
-
         animationView.loopMode = .loop
 
         // 3. Adjust animation speed
+        animationView.animationSpeed = 0.7
+    }
 
-        animationView.animationSpeed = 0.5
+    func setupRx() {
+        // subscribe
+        viewModel.isPlayingObservable.asObservable().subscribe(onNext: { [weak self] (playing: Bool) in
+            guard let self = self else { return }
+            switch playing {
+            case true:
+                self.animationView.play()
+                self.toggleButton.setTitle("Stop", for: .normal)
+            case false:
+                self.animationView.stop()
+                self.toggleButton.setTitle("Start", for: .normal)
+            }
+        }).disposed(by: viewModel.disposeBag)
 
-        // 4. Play animation
-        animationView.play()
+        // on tap button
+        toggleButton.rx.tap.asObservable().subscribe(onNext: { [weak self] in
+            guard let self = self else { return }
+            self.viewModel.isPlayingObservable.onNext(!self.animationView.isAnimationPlaying)
+        }).disposed(by: viewModel.disposeBag)
     }
 }
