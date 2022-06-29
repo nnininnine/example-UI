@@ -29,6 +29,8 @@
 		1E4D8EDA286C3F0E002135BE /* Euclid Circular B Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED0286C3F0E002135BE /* Euclid Circular B Light.ttf */; };
 		1E4D8EDB286C3F0E002135BE /* Euclid Circular B Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED1286C3F0E002135BE /* Euclid Circular B Italic.ttf */; };
 		1E4D8EDC286C3F0E002135BE /* Euclid Circular B SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED2286C3F0E002135BE /* Euclid Circular B SemiBold.ttf */; };
+		1E4D8EDF286C4897002135BE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EDE286C4897002135BE /* Colors.swift */; };
+		1E4D8EE1286C4B49002135BE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EE0286C4B49002135BE /* NavigationController.swift */; };
 		7FF226E715910A67EFFCDA5D /* Pods_example_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		1E4D8ED0286C3F0E002135BE /* Euclid Circular B Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Light.ttf"; sourceTree = "<group>"; };
 		1E4D8ED1286C3F0E002135BE /* Euclid Circular B Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Italic.ttf"; sourceTree = "<group>"; };
 		1E4D8ED2286C3F0E002135BE /* Euclid Circular B SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B SemiBold.ttf"; sourceTree = "<group>"; };
+		1E4D8EDE286C4897002135BE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1E4D8EE0286C4B49002135BE /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93753630003E0D27BDF6F0AC /* Pods-example-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.debug.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.debug.xcconfig"; sourceTree = "<group>"; };
 		D8EAC9BC72AA1C06F2E2F43D /* Pods-example-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.release.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 		1E4D8E96286BF547002135BE /* example-UI */ = {
 			isa = PBXGroup;
 			children = (
+				1E4D8EDD286C488B002135BE /* Extension */,
 				1E4D8EB8286C27B6002135BE /* Resource */,
 				1E4D8EAC286BFEA7002135BE /* Base */,
 				1E4D8EAB286BFE9B002135BE /* Screens */,
@@ -250,6 +255,15 @@
 			path = "euclid-circular-b-cufonfonts";
 			sourceTree = "<group>";
 		};
+		1E4D8EDD286C488B002135BE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EDE286C4897002135BE /* Colors.swift */,
+				1E4D8EE0286C4B49002135BE /* NavigationController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5FC9D98918F4FEAADAAFC66E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,11 +408,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4D8EB1286BFF36002135BE /* MainViewController.swift in Sources */,
+				1E4D8EDF286C4897002135BE /* Colors.swift in Sources */,
 				1E4D8EBF286C2950002135BE /* LottieViewController.swift in Sources */,
 				1E4D8E98286BF547002135BE /* AppDelegate.swift in Sources */,
 				1E4D8E9A286BF547002135BE /* SceneDelegate.swift in Sources */,
 				1E4D8EC2286C2E83002135BE /* LottieViewModel.swift in Sources */,
 				1E4D8EB7286C0EA9002135BE /* Module.swift in Sources */,
+				1E4D8EE1286C4B49002135BE /* NavigationController.swift in Sources */,
 				1E4D8EC6286C3CC3002135BE /* DiaryFolderViewController.swift in Sources */,
 				1E4D8EB4286C0705002135BE /* MainViewModel.swift in Sources */,
 			);
