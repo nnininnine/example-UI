@@ -16,7 +16,7 @@ class MainViewModel {
             name: "Lottie example",
             identifier: "LottieViewController",
             storyboardIdentifier: "Main"
-        )
+        ),
     ])
     let disposeBag: DisposeBag = .init()
 
