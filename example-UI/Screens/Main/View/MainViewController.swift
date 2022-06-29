@@ -9,7 +9,15 @@ import Foundation
 import UIKit
 
 class MainViewController: UITableViewController {
+    // MARK: Init
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        setup()
     }
+
+    // MARK: Methods
+
+    func setup() {}
 }
