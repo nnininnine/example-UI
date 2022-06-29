@@ -64,30 +64,37 @@
             </objects>
             <point key="canvasLocation" x="1418.840579710145" y="147.99107142857142"/>
         </scene>
-        <!--Diary Folder View Controller-->
+        <!--folders-->
         <scene sceneID="ecU-qW-YDo">
             <objects>
-                <viewController storyboardIdentifier="DiaryFolderViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cOh-PD-qdH" customClass="DiaryFolderViewController" customModule="example_UI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiaryFolderViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" interfaceStyle="light" id="cOh-PD-qdH" customClass="DiaryFolderViewController" customModule="example_UI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8aJ-rX-62x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="folders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5I-YO-0l5">
-                                <rect key="frame" x="20" y="68" width="242" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmc-5K-zoM">
+                                <rect key="frame" x="334" y="780" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="plus" catalog="system" cornerStyle="large"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fpe-Ck-gUN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="folders" id="PMN-uU-y1E">
+                        <barButtonItem key="rightBarButtonItem" image="calendar" catalog="system" style="plain" id="Znq-4G-0xa">
+                            <color key="tintColor" systemColor="labelColor"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="addButton" destination="dmc-5K-zoM" id="NH4-S3-NiP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqS-Lo-Kaw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1418.840579710145" y="807.58928571428567"/>
+            <point key="canvasLocation" x="1419" y="808"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Rm-1s-mg7">
@@ -110,6 +117,11 @@
         <designable name="bRp-MI-5Ul"/>
     </designables>
     <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

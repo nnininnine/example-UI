@@ -20,10 +20,15 @@ class MainViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupUI()
         setup()
     }
 
     // MARK: Methods
+
+    func setupUI() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
 
     func setup() {
         // binding
