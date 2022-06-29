@@ -57,7 +57,7 @@ class LottieViewController: UIViewController {
                 self.animationView.play()
                 self.toggleButton.setTitle("Stop", for: .normal)
             case false:
-                self.animationView.stop()
+                self.animationView.pause()
                 self.toggleButton.setTitle("Start", for: .normal)
             }
         }).disposed(by: viewModel.disposeBag)

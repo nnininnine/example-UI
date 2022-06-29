@@ -17,6 +17,11 @@ class MainViewModel {
             identifier: "LottieViewController",
             storyboardIdentifier: "Main"
         ),
+        Module(
+            name: "Diary folder",
+            identifier: "DiaryFolderViewController",
+            storyboardIdentifier: "Main"
+        )
     ])
     let disposeBag: DisposeBag = .init()
 

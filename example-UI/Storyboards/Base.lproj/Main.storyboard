@@ -64,6 +64,31 @@
             </objects>
             <point key="canvasLocation" x="1418.840579710145" y="147.99107142857142"/>
         </scene>
+        <!--Diary Folder View Controller-->
+        <scene sceneID="ecU-qW-YDo">
+            <objects>
+                <viewController storyboardIdentifier="DiaryFolderViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cOh-PD-qdH" customClass="DiaryFolderViewController" customModule="example_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8aJ-rX-62x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="folders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5I-YO-0l5">
+                                <rect key="frame" x="20" y="68" width="242" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fpe-Ck-gUN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqS-Lo-Kaw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418.840579710145" y="807.58928571428567"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Rm-1s-mg7">
             <objects>
@@ -81,6 +106,9 @@
             <point key="canvasLocation" x="-223" y="148"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="bRp-MI-5Ul"/>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

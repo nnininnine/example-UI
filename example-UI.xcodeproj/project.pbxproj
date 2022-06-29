@@ -18,6 +18,17 @@
 		1E4D8EBB286C27C9002135BE /* 110304-popeye.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8EBA286C27C9002135BE /* 110304-popeye.json */; };
 		1E4D8EBF286C2950002135BE /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EBE286C2950002135BE /* LottieViewController.swift */; };
 		1E4D8EC2286C2E83002135BE /* LottieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */; };
+		1E4D8EC6286C3CC3002135BE /* DiaryFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8EC5286C3CC3002135BE /* DiaryFolderViewController.swift */; };
+		1E4D8ED3286C3F0E002135BE /* Euclid Circular B Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8EC9286C3F0E002135BE /* Euclid Circular B Medium.ttf */; };
+		1E4D8ED4286C3F0E002135BE /* Euclid Circular B SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECA286C3F0E002135BE /* Euclid Circular B SemiBold Italic.ttf */; };
+		1E4D8ED5286C3F0E002135BE /* Euclid Circular B Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECB286C3F0E002135BE /* Euclid Circular B Medium Italic.ttf */; };
+		1E4D8ED6286C3F0E002135BE /* Euclid Circular B Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECC286C3F0E002135BE /* Euclid Circular B Regular.ttf */; };
+		1E4D8ED7286C3F0E002135BE /* Euclid Circular B Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECD286C3F0E002135BE /* Euclid Circular B Bold.ttf */; };
+		1E4D8ED8286C3F0E002135BE /* Euclid Circular B Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECE286C3F0E002135BE /* Euclid Circular B Light Italic.ttf */; };
+		1E4D8ED9286C3F0E002135BE /* Euclid Circular B Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ECF286C3F0E002135BE /* Euclid Circular B Bold Italic.ttf */; };
+		1E4D8EDA286C3F0E002135BE /* Euclid Circular B Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED0286C3F0E002135BE /* Euclid Circular B Light.ttf */; };
+		1E4D8EDB286C3F0E002135BE /* Euclid Circular B Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED1286C3F0E002135BE /* Euclid Circular B Italic.ttf */; };
+		1E4D8EDC286C3F0E002135BE /* Euclid Circular B SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E4D8ED2286C3F0E002135BE /* Euclid Circular B SemiBold.ttf */; };
 		7FF226E715910A67EFFCDA5D /* Pods_example_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +46,17 @@
 		1E4D8EBA286C27C9002135BE /* 110304-popeye.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "110304-popeye.json"; sourceTree = "<group>"; };
 		1E4D8EBE286C2950002135BE /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewModel.swift; sourceTree = "<group>"; };
+		1E4D8EC5286C3CC3002135BE /* DiaryFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFolderViewController.swift; sourceTree = "<group>"; };
+		1E4D8EC9286C3F0E002135BE /* Euclid Circular B Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Medium.ttf"; sourceTree = "<group>"; };
+		1E4D8ECA286C3F0E002135BE /* Euclid Circular B SemiBold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B SemiBold Italic.ttf"; sourceTree = "<group>"; };
+		1E4D8ECB286C3F0E002135BE /* Euclid Circular B Medium Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Medium Italic.ttf"; sourceTree = "<group>"; };
+		1E4D8ECC286C3F0E002135BE /* Euclid Circular B Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Regular.ttf"; sourceTree = "<group>"; };
+		1E4D8ECD286C3F0E002135BE /* Euclid Circular B Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Bold.ttf"; sourceTree = "<group>"; };
+		1E4D8ECE286C3F0E002135BE /* Euclid Circular B Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Light Italic.ttf"; sourceTree = "<group>"; };
+		1E4D8ECF286C3F0E002135BE /* Euclid Circular B Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Bold Italic.ttf"; sourceTree = "<group>"; };
+		1E4D8ED0286C3F0E002135BE /* Euclid Circular B Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Light.ttf"; sourceTree = "<group>"; };
+		1E4D8ED1286C3F0E002135BE /* Euclid Circular B Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B Italic.ttf"; sourceTree = "<group>"; };
+		1E4D8ED2286C3F0E002135BE /* Euclid Circular B SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Euclid Circular B SemiBold.ttf"; sourceTree = "<group>"; };
 		4D908AE51D6FAFBB849C1D11 /* Pods_example_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93753630003E0D27BDF6F0AC /* Pods-example-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.debug.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.debug.xcconfig"; sourceTree = "<group>"; };
 		D8EAC9BC72AA1C06F2E2F43D /* Pods-example-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-UI.release.xcconfig"; path = "Target Support Files/Pods-example-UI/Pods-example-UI.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +108,7 @@
 		1E4D8EAB286BFE9B002135BE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1E4D8EC3286C3CAC002135BE /* DiaryFolder */,
 				1E4D8EBC286C28F1002135BE /* Lottie */,
 				1E4D8EAE286BFEE5002135BE /* Main */,
 			);
@@ -147,6 +170,7 @@
 		1E4D8EB8286C27B6002135BE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1E4D8EC7286C3F03002135BE /* Font */,
 				1E4D8EB9286C27BC002135BE /* Lottie */,
 			);
 			path = Resource;
@@ -183,6 +207,47 @@
 				1E4D8EC1286C2E83002135BE /* LottieViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E4D8EC3286C3CAC002135BE /* DiaryFolder */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EC4286C3CB4002135BE /* View */,
+			);
+			path = DiaryFolder;
+			sourceTree = "<group>";
+		};
+		1E4D8EC4286C3CB4002135BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EC5286C3CC3002135BE /* DiaryFolderViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E4D8EC7286C3F03002135BE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EC8286C3F0E002135BE /* euclid-circular-b-cufonfonts */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1E4D8EC8286C3F0E002135BE /* euclid-circular-b-cufonfonts */ = {
+			isa = PBXGroup;
+			children = (
+				1E4D8EC9286C3F0E002135BE /* Euclid Circular B Medium.ttf */,
+				1E4D8ECA286C3F0E002135BE /* Euclid Circular B SemiBold Italic.ttf */,
+				1E4D8ECB286C3F0E002135BE /* Euclid Circular B Medium Italic.ttf */,
+				1E4D8ECC286C3F0E002135BE /* Euclid Circular B Regular.ttf */,
+				1E4D8ECD286C3F0E002135BE /* Euclid Circular B Bold.ttf */,
+				1E4D8ECE286C3F0E002135BE /* Euclid Circular B Light Italic.ttf */,
+				1E4D8ECF286C3F0E002135BE /* Euclid Circular B Bold Italic.ttf */,
+				1E4D8ED0286C3F0E002135BE /* Euclid Circular B Light.ttf */,
+				1E4D8ED1286C3F0E002135BE /* Euclid Circular B Italic.ttf */,
+				1E4D8ED2286C3F0E002135BE /* Euclid Circular B SemiBold.ttf */,
+			);
+			path = "euclid-circular-b-cufonfonts";
 			sourceTree = "<group>";
 		};
 		5FC9D98918F4FEAADAAFC66E /* Frameworks */ = {
@@ -262,10 +327,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4D8EDB286C3F0E002135BE /* Euclid Circular B Italic.ttf in Resources */,
+				1E4D8EDA286C3F0E002135BE /* Euclid Circular B Light.ttf in Resources */,
+				1E4D8ED6286C3F0E002135BE /* Euclid Circular B Regular.ttf in Resources */,
+				1E4D8ED3286C3F0E002135BE /* Euclid Circular B Medium.ttf in Resources */,
+				1E4D8EDC286C3F0E002135BE /* Euclid Circular B SemiBold.ttf in Resources */,
+				1E4D8ED7286C3F0E002135BE /* Euclid Circular B Bold.ttf in Resources */,
 				1E4D8EA4286BF549002135BE /* LaunchScreen.storyboard in Resources */,
+				1E4D8ED9286C3F0E002135BE /* Euclid Circular B Bold Italic.ttf in Resources */,
 				1E4D8EA1286BF549002135BE /* Assets.xcassets in Resources */,
 				1E4D8EBB286C27C9002135BE /* 110304-popeye.json in Resources */,
 				1E4D8E9F286BF547002135BE /* Main.storyboard in Resources */,
+				1E4D8ED8286C3F0E002135BE /* Euclid Circular B Light Italic.ttf in Resources */,
+				1E4D8ED5286C3F0E002135BE /* Euclid Circular B Medium Italic.ttf in Resources */,
+				1E4D8ED4286C3F0E002135BE /* Euclid Circular B SemiBold Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +399,7 @@
 				1E4D8E9A286BF547002135BE /* SceneDelegate.swift in Sources */,
 				1E4D8EC2286C2E83002135BE /* LottieViewModel.swift in Sources */,
 				1E4D8EB7286C0EA9002135BE /* Module.swift in Sources */,
+				1E4D8EC6286C3CC3002135BE /* DiaryFolderViewController.swift in Sources */,
 				1E4D8EB4286C0705002135BE /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
