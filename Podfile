@@ -7,6 +7,7 @@ target 'example-UI' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'lottie-ios'
+
   # Pods for example-UI
 
 end
